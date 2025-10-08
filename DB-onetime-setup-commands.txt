@@ -1,0 +1,38 @@
+
+## Extract and Setup Directory(Preferably your users root directory)
+For example: `C:\tdd-dev-kit\db_server` or `D:\tdd-dev-kit\db_server`
+
+```cmd
+cd C:\tdd-dev-kit\db_server\bin\
+
+##Run Below Command:
+```cmd
+mariadb-install-db.exe
+
+
+
+## Start the MariaDB server using the console mode for immediate feedback:
+
+```cmd
+mariadbd.exe --console
+
+
+## Connect Using MySQL Client
+
+**Open a new Command Prompt window** (keep the server running in the first window) 
+
+
+```cmd
+cd C:\mariadb\bin
+mysql -u root -p
+
+** Press enter without entering password, when asked.
+
+## Now go to 
+```cmd
+cd C:\tdd-dev-kit\sql_client\
+
+==> Dounle click "heidisql.exe" --> Enter username=root, password= keep empty, Host=127.0.0.1
+
+
+

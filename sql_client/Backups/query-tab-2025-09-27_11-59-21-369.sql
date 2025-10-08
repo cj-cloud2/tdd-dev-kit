@@ -1,3 +1,1 @@
-DROP TABLE IF EXISTS transactions;
-DROP TABLE IF EXISTS accounts;
-DROP DATABASE IF EXISTS banking_cbs_lab;
+DROP PROCEDURE IF EXISTS test_get_account_balance_red;
